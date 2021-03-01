@@ -23,7 +23,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-link to site: https://childishmartino.github.io/homework01/
+link to site: https://childishmartino.github.io/homework02/
 
 link to repo: https://github.com/childishmartino/homework02 
 
