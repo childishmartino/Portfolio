@@ -3,7 +3,7 @@ Advanced CSS Homework
 
 ## Assigment 
 
-Build a portfolio page, which to add to ass the course progress. 
+Build a portfolio page, which to add to as the course progress. 
 
 ## Acceptance Criteria
 
