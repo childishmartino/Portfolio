@@ -1,155 +1,50 @@
-:root {
-    --westar: #dedcd4;
-    --slategray: #6e818f;
-    --mulledwine: #4f4a60;
-    --envy: #97ab93;
-}
-
-html {
-    font-size: 62.5%;
+body, html{
+    height: 100;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    font-size: 1.75rem;
-    line-height: 1.5;
-    background-color: var(--slategray);
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #444
 }
 
-h1,
-h2,
-h3 {
-    margin-bottom: 0.625rem;
-    color: var(--westar);
-    font-weight: 700;
-    line-height: 1.1;
+.intro-left {
+    background: url("../images/cheng-feng-psdV2Rl-GvU-unsplash.jpg");
+    position: fixed;
+    left: 0;
+    width: 33.33%;
+    height: 100%;
+    color: #e9e9e9
 }
 
-h1 {
-    padding-top: 2rem;
-    padding-left: 15rem;
-    display: inline-block;
-    font-size: 4rem;
+@media (max-width: 780px) {
+    .intro-left {
+        height: 50vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
 }
 
-h2 {
-    font-size: 3.5rem;
+.profile-pic {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
 }
 
-h3 {
-    font-size: 3rem;
+.full-height {
+    height: 100%;
 }
 
-p {
-    margin-bottom: 1rem;
+section {
+    margin: 5rem;
+    font-size: 1.2 rem;
 }
 
-a {
-    color: var(--westar);
-    text-decoration: none;
-}
-
-header {
-    padding-bottom: 2rem;
-    background-color: var(--envy);
-}
-
-.header nav {
-    padding-top: 3rem;
-    margin-right: 15rem;
-    float: right;
-    font-size: 2rem;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-flex;
-    margin-left: 2.5rem;
-}
-
-.about-me, .work, .contact {
-    display: inline-flex;
-    padding-top: 15rem;
-}
-
-.about-header, .work-header, .contact-header {
-    text-align: center;
-    width: 20rem;
-    border-right: 5px solid var(--mulledwine);
-    padding-right: 10rem;
-}
-
-.imageofme {
-    width: 160px;
-    height: 160px;
-    margin-left: 10rem;
-}
-
-.about-text {
-    padding-left: 10rem;
-}
-
-.work-grid {
-    display: grid;
+.thumbnail {
     width:100%;
-    margin-left: 10rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 100px;
-    column-gap: 2.5rem;
-    row-gap: 2.5rem;
-}
-
-.box1 {
-    background-image: url("../images/code.jpg");
-    background-size: cover;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.box2 {
-    background-image: url("../images/code.jpg");
-    background-size: cover;
-}
-
-.box3 {
-    background-image: url("../images/code.jpg");
-    background-size: cover;
-}
-
-.email, .linkedin, .github {
-    margin-left: 10rem;
-}
-
-.content{
-    display:flex;
-    flex-direction: column;
-    margin-left: 25rem;
-    margin-right: 25rem;
-}
-
-@media screen and (max-width: 768px) {
-    header, 
-    nav,
-    .about-me,
-    .work,
-    .contact {
-        flex-direction: column;
-    }
-    .about-header, .work-header, .contact-header {
-        text-align: center;
-        width: 20rem;
-        border-right: none;
-        border-bottom: 5px solid var(--mulledwine)
-    }
-    .imageofme, .about-text, .work-grid, .email, .linkedin, .github {
-        margin-left: 0rem;
-        padding-left: 0rem;
-        padding-top: 5rem;
-    }
+    height: 40vh;
+    object-fit: cover;
+    border: 2rem;
 }

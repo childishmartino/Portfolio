@@ -2,74 +2,131 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-schale=1.0">
-    <title>Chris Garcia | Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Chris Garcia | Portfolio</title>
 </head>
 
 <body>
-    <header class="header">
-        <h1>Chris Garcia</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main class="content">
-        <section class="about-me" id="about-me">
-            <h2 class="about-header">About Me</h2>
-            <img src="assets/images/dasboot_profilepic.jpg" class="imageofme">
-            <div class="about-text">
-                <p>
-                    Hi! Thanks for stopping by to check out my portfolio.
-                    I am just starting out in my coding journey, but I have been working in the digital space for
-                    years.
-                    My main experience comes from working with on retail websites, but I am excited to take on new
-                    challenges.
-                </p>
-        </section>
-
-        <section class="work" id="work">
-            <h2 class="work-header">Work</h2>
-            <div class="work-grid">
-                <div class="box1">
-                    <h3><a href="https://childishmartino.github.io/homework01/">Homework01: Refactor Code</a></h3>
-                </div>
-                <div class="box2">
-                    <h3>Project 2: Coming Soon<h/3>
-                </div>
-                <div class="box3">
-                    <h3>Project 3 Coming Soon</h3>
+    <div class="intro-left"> 
+        <div class="container-fluid full-height">
+            <div class="row text-center align-items-center full-height">
+                <div class="col">
+                    <img src="assets/images/dasboot_profilepic.jpg" alt="picture of me" class="profile-pic" />
+                    <p class="display-4">Chris Garcia</h1>
+                    <p>Digital Retailing & Full Stack Development</p>
                 </div>
             </div>
-        </section>
-        <section class="contact" id="contact">
-            <h2 class="contact-header">Contact</h2>
-            <div class="email">
-                <h3><a href="mailto: chrisg1821@gmail.com">Email Me</a></h3>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 panel-left"></div>
+            <div class="col-md-8 panel-right px-0">
+                <section class="about-me">
+                    <h1 class="display-5 mb-5">About Me: </h1>
+                    <p>Hi! I am currently studying full stack development, and scheduled to complete in August of 2021.
+                        I have lived in San Francisco for 4 years. Before that, I grew up in Texas, where I
+                        graduated from the University of North Texas with a degree in Digital Retailing.
+                        My degree opened lots of doors for me, and I am hoping once I complete the full stack program I
+                        will be able to push to new heights.
+                    </p>
+                    <a href="assets/ChrisGarcia-Resume.pdf" class="btn btn-dark" role="button"
+                        download="Chris Garcia - Resume"><i class="fas fa-file mr-2"></i>Resume</a>
+                </section>
+                <section class="work">
+                    <h2 class="display-6 mb-5">My Work So Far: </h2>
+                    <div class="container-fluid">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                            <div class="col mb-4">
+                                <div class="card h-100 bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lyric Finder</h5>
+                                    </div>
+                                    <img src="assets/images/lyric-finder.png" class="card-img-bottom mb-2"
+                                        alt="lyric finder">
+                                    <a href="https://lyndseyfin.github.io/Lyric-finder/" class="btn btn-dark mb-2">Check
+                                        out the demo!</a>
+                                    <a href="https://github.com/Lyndseyfin/Lyric-finder" class="btn btn-dark mb-2">Check
+                                        out the code!</a>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card h-100 bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Weather Dashboard</h5>
+                                    </div>
+                                    <img src="assets/images/weather-app.png" class="card-img-bottom mb-2"
+                                        alt="weather dashboard">
+                                    <a href="https://childishmartino.github.io/Weather-Dashboard/"
+                                        class="btn btn-dark mb-2">Check
+                                        out the demo!</a>
+                                    <a href="https://github.com/childishmartino/Weather-Dashboard"
+                                        class="btn btn-dark mb-2">Check
+                                        out the code!</a>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card h-100 bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Work Day Scheduler</h5>
+                                    </div>
+                                    <img src="assets/images/scheduler.png" class="card-img-bottom mb-2"
+                                        alt="Work day scheduler">
+                                    <a href="https://childishmartino.github.io/Work-Day-Scheduler/"
+                                        class="btn btn-dark mb-2">Check
+                                        out the demo!</a>
+                                    <a href="https://github.com/childishmartino/Work-Day-Scheduler"
+                                        class="btn btn-dark mb-2">Check
+                                        out the code!</a>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card h-100 bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Coding Quiz</h5>
+                                    </div>
+                                    <img src="assets/images/coding-quiz.png" class="card-img-bottom mb-2"
+                                        alt="Coding quiz">
+                                    <a href="https://childishmartino.github.io/Coding-Camp-Quiz/"
+                                        class="btn btn-dark mb-2">Check
+                                        out the demo!</a>
+                                    <a href="https://github.com/childishmartino/Coding-Camp-Quiz"
+                                        class="btn btn-dark mb-2">Check
+                                        out the code!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="work">
+                    <h2 class="display-6 mb-5">Contact Me: </h2>
+                    <div class="container">
+                        <div class="row text-center align-items-center">
+                            <div class="col-md-12">
+                                <a href="mailto:chrisg1821@gmail.com" class="btn btn-dark mb-2"><i
+                                        class="fas fa-envelope-square fa-3x"></i></a>
+                                <a href="https://github.com/childishmartino" class="btn btn-dark mb-2"><i
+                                        class="fab fa-github fa-3x"></i></a>
+                                <a href="https://www.linkedin.com/in/chris-garcia-30248435/"
+                                    class="btn btn-dark mb-2"><i class="fab fa-linkedin fa-3x"></i></a>
+                                <a href="https://twitter.com/chrisg1821" class="btn btn-dark mb-2"><i
+                                        class="fab fa-twitter fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="linkedin">
-                <h3><a href="https://www.linkedin.com/in/chris-garcia-30248435/">LinkedIn</a></h3>
-            </div>
-            <div class="github">
-                <h3><a href="https://github.com/childishmartino">Github</a></h3>
-            </div>
-        </section>
-        </section>
-    </main>
+        </div>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
