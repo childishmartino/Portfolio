@@ -23,13 +23,17 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Updates 6/20
+Updated background image, cards, css and shop shadows
+
+
 ## Updates 4/11
 Updated layout to run off bootstrap.
 Added a background image, card and better buttons with icons
 Rounded photo
 
-link to site: https://github.com/childishmartino/Portfolio
+link to site: https://childishmartino.github.io/Portfolio/
 
-link to repo: https://childishmartino.github.io/Portfolio/
+link to repo: https://github.com/childishmartino/Portfolio
 
-![screenshot of homework.](./assets/images/portfolio-update.png)
+![screenshot of homework.](./assets/images/update2.png)
